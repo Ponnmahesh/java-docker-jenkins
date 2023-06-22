@@ -1,0 +1,2 @@
+FROM tomcat:8.0.20-jre8
+COPY target/java-docker-jenkins*.war/ user/localtomcat/webapps/java-docker-jenkins.war
